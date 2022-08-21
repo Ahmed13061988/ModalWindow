@@ -20,3 +20,7 @@ for (let i = 0; i < btnsOpenModal.length; i++) {
 
   overlay.addEventListener('click', closeModal);
 }
+
+document.addEventListener('keydown', function () {
+  console.log('A key was pressed');
+});
